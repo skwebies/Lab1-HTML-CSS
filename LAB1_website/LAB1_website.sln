@@ -10,7 +10,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{0BF70E6D-253
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pages", "pages", "{A1CF0A60-6A6F-4E12-8EE6-408AC7F88BD3}"
 	ProjectSection(SolutionItems) = preProject
+		about.html = about.html
+		contact.html = contact.html
 		index.html = index.html
+		live.html = live.html
+		sports.html = sports.html
 	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{CC6BD515-0EAD-4802-A5F7-B7E3F0F51BD7}"
