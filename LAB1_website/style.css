@@ -24,7 +24,6 @@ body {
     margin-top: 0px;
     background: rgb(86, 105, 5) url("soccer-world.jpg");
     background-attachment: fixed;
-    
     background-repeat: no-repeat;
 }
 /*body overlay pattern style*/
@@ -37,7 +36,6 @@ body {
     z-index: -999;
     background-color: rgba(0,0,0,0.5); /*dim the background*/
     background-image: url("black-orchid.png");
-   
     background-repeat: repeat;
 }
 /*Page container styles*/
@@ -75,9 +73,9 @@ header {
     float: left;
 }
 
-#logo a {
-    text-decoration:none;
-}
+    #logo a {
+        text-decoration: none;
+    }
 
 nav {
     background: white;
@@ -106,14 +104,15 @@ nav {
                 padding: 3px 8px 5px 8px;
                 border-radius: 3px 3px;
             }
-             nav ul li a.selected{
+
+            nav ul li a.selected {
                 background-color: #bfe619;
                 color: black;
                 padding: 3px 8px 5px 8px;
                 border-radius: 3px 3px;
             }
 
-        
+
 
 .content_float {
     float: left;
@@ -123,6 +122,35 @@ nav {
     margin-bottom: 20px;
     font-family: 'Ubuntu',sans-serif;
 }
+
+    .content_float p {
+        text-align: justify;
+        text-justify: auto;
+    }
+
+    .content_float h4 {
+        margin: 5px 0;
+        color: rgb(86, 105, 5);
+    }
+
+.readMore {
+    background: rgb(86, 105, 5);
+    color: white;
+    border: none;
+    margin-top: 10px;
+    padding: 5px 8px;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    width: 80px;
+    margin-left: auto;
+    border-top-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+    .readMore:hover {
+        color: black;
+    }
 
 .contents {
     width: 67%;
@@ -233,12 +261,12 @@ footer {
     clear: both;
     min-height: 300px;
     /*height: auto;*/
-    padding:20px 20px 0 20px;
+    padding: 20px 20px 0 20px;
     background: #3c3c3c;
     font-family: 'Ubuntu',sans-serif;
     color: white;
-    background-image:url("black-orchid.png");
-    background-repeat:repeat;
+    background-image: url("black-orchid.png");
+    background-repeat: repeat;
 }
 
 .columns {
@@ -297,28 +325,31 @@ footer h3 {
         }
 
 
-        #banner img {
-            display:block;
-            margin-left:auto;
-            margin-right:auto;
-            margin-bottom:20px;
-        }
-        .copyright {
-            clear:both;
-            width:100%;
-            height: 50px;
-            font-family:'Ubuntu',sans-serif;
-            font-size:10px;
-            background:black;
-            text-align:center;
-        }
-        .copyright p {
-            line-height:50px;
-            color:azure;
-        }
+#banner img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.copyright {
+    clear: both;
+    width: 100%;
+    height: 50px;
+    font-family: 'Ubuntu',sans-serif;
+    font-size: 10px;
+    background: black;
+    text-align: center;
+}
+
+    .copyright p {
+        line-height: 50px;
+        color: azure;
+    }
+
         .copyright p a {
-            color:darkorange;
-            text-decoration:none;
+            color: darkorange;
+            text-decoration: none;
         }
 
 /*Contact Page Styles*/
@@ -332,41 +363,46 @@ footer h3 {
     margin-left: 20px;
     clear: right;
 }
+
 form.contact_form {
-    margin-left:20px;
-    font-family:'Ubuntu',sans-serif;
-    color:#383838;
-    margin-bottom:20px;
-    width:30%;
-    float:left;
-    background:white;
-    padding:10px;
+    margin-left: 20px;
+    font-family: 'Ubuntu',sans-serif;
+    color: #383838;
+    margin-bottom: 20px;
+    width: 30%;
+    float: left;
+    background: white;
+    padding: 10px;
 }
-form #fullname,#email,#message {
-    margin-top:10px;
-    margin-bottom:5px;
+
+form #fullname, #email, #message {
+    margin-top: 10px;
+    margin-bottom: 5px;
 }
+
 .map {
-    float:right;
-    margin-left:20px;
-    width:60%;
-    margin-bottom:20px;
+    float: right;
+    margin-left: 20px;
+    width: 60%;
+    margin-bottom: 20px;
 }
 
 
 /*Sports Page Styles*/
-.football,.cricket,.rugby {
-    background:#f8f8f8;
-    margin-bottom:20px;
+.football, .cricket, .rugby {
+    background: #f8f8f8;
+    margin-bottom: 20px;
 }
-.football h3 {
-    margin-top:20px;
-    margin-left:20px;
 
-}
-.cricket h3 {
-    margin-left:20px;
-}
-.rugby h3 {
-    margin-left:20px;
-}
+    .football h3 {
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .cricket h3 {
+        margin-left: 20px;
+    }
+
+    .rugby h3 {
+        margin-left: 20px;
+    }
