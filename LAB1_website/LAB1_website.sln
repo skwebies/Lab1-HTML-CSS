@@ -21,7 +21,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{CC6BD5
 	ProjectSection(SolutionItems) = preProject
 		banner-728x90.gif = banner-728x90.gif
 		..\..\..\..\Downloads\black-orchid.png = ..\..\..\..\Downloads\black-orchid.png
-		..\..\..\..\Downloads\lake-constance.jpg = ..\..\..\..\Downloads\lake-constance.jpg
+		cricket.jpg = cricket.jpg
+		football.jpg = football.jpg
+		quarterback.jpg = quarterback.jpg
+		soccer-world.jpg = soccer-world.jpg
 		..\..\..\..\Downloads\sport1.jpg = ..\..\..\..\Downloads\sport1.jpg
 	EndProjectSection
 EndProject
