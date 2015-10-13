@@ -324,3 +324,21 @@ form #fullname,#email,#message {
     width:60%;
     margin-bottom:20px;
 }
+
+
+/*Sports Page Styles*/
+.football,.cricket,.rugby {
+    background:#f8f8f8;
+    margin-bottom:20px;
+}
+.football h3 {
+    margin-top:20px;
+    margin-left:20px;
+
+}
+.cricket h3 {
+    margin-left:20px;
+}
+.rugby h3 {
+    margin-left:20px;
+}
