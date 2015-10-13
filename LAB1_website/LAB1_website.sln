@@ -3,6 +3,28 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "css", "css", "{0BF70E6D-2539-4737-ADA9-1B3966B3ED07}"
+	ProjectSection(SolutionItems) = preProject
+		style.css = style.css
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pages", "pages", "{A1CF0A60-6A6F-4E12-8EE6-408AC7F88BD3}"
+	ProjectSection(SolutionItems) = preProject
+		about.html = about.html
+		contact.html = contact.html
+		index.html = index.html
+		live.html = live.html
+		sports.html = sports.html
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "images", "images", "{CC6BD515-0EAD-4802-A5F7-B7E3F0F51BD7}"
+	ProjectSection(SolutionItems) = preProject
+		banner-728x90.gif = banner-728x90.gif
+		..\..\..\..\Downloads\black-orchid.png = ..\..\..\..\Downloads\black-orchid.png
+		..\..\..\..\Downloads\lake-constance.jpg = ..\..\..\..\Downloads\lake-constance.jpg
+		..\..\..\..\Downloads\sport1.jpg = ..\..\..\..\Downloads\sport1.jpg
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
