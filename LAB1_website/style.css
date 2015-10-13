@@ -46,7 +46,7 @@ body {
     width: 100%;
     background-color: #efefef;
     margin: 0 auto;
-    min-height: 800px;
+    /*min-height: 800px;*/
     z-index: 10;
 }
 
@@ -232,19 +232,21 @@ box-shadow: inset 0px 0px 5px 2px rgba(0,0,0,0.27);*/
 footer {
     clear: both;
     min-height: 300px;
-    height: auto;
-    padding: 20px;
+    /*height: auto;*/
+    padding:20px 20px 0 20px;
     background: #3c3c3c;
     font-family: 'Ubuntu',sans-serif;
     color: white;
+    background-image:url("black-orchid.png");
+    background-repeat:repeat;
 }
 
 .columns {
     float: left;
-    margin: 10px;
+    margin: 30px 10px 0 10px;
     background: #282828;
     width: 265px;
-    padding: 10px;
+    padding: 20px 10px 10px 10px;
     min-height: 200px;
     -webkit-box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.27);
     -moz-box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.27);
@@ -293,6 +295,32 @@ footer h3 {
         .footer_menu ul li a:hover {
             color: white;
         }
+
+
+        #banner img {
+            display:block;
+            margin-left:auto;
+            margin-right:auto;
+            margin-bottom:20px;
+        }
+        .copyright {
+            clear:both;
+            width:100%;
+            height: 50px;
+            font-family:'Ubuntu',sans-serif;
+            font-size:10px;
+            background:black;
+            text-align:center;
+        }
+        .copyright p {
+            line-height:50px;
+            color:azure;
+        }
+        .copyright p a {
+            color:darkorange;
+            text-decoration:none;
+        }
+
 /*Contact Page Styles*/
 .full_width_page {
     width: 96%;
