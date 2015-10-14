@@ -1,9 +1,9 @@
 /*CSS reset*/
-html, body, div, span, applet, object, iframe,
+html, body, div, span, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
 del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
+small, strong, sub, sup, tt, var,
 b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
@@ -22,7 +22,7 @@ body {
     font-family: 'Ubuntu', sans-serif;
     color: black;
     margin-top: 0px;
-    background: rgb(86, 105, 5) url("soccer-world.jpg");
+    background: rgb(86, 105, 5) url("https://cloud.githubusercontent.com/assets/9512143/10493099/95131606-72af-11e5-80db-c68b16bd2de8.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
 }
@@ -35,7 +35,7 @@ body {
     height: auto;
     z-index: -999;
     background-color: rgba(0,0,0,0.5); /*dim the background*/
-    background-image: url("black-orchid.png");
+    background-image: url("https://cloud.githubusercontent.com/assets/9512143/10493082/84b06638-72af-11e5-82ba-6fe92aed1424.png");
     background-repeat: repeat;
 }
 /*Page container styles*/
@@ -265,7 +265,7 @@ footer {
     background: #3c3c3c;
     font-family: 'Ubuntu',sans-serif;
     color: white;
-    background-image: url("black-orchid.png");
+    background-image: url("https://cloud.githubusercontent.com/assets/9512143/10493082/84b06638-72af-11e5-82ba-6fe92aed1424.png");
     background-repeat: repeat;
 }
 
@@ -330,6 +330,7 @@ footer h3 {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 20px;
+    clear:both;
 }
 
 .copyright {
