@@ -279,9 +279,9 @@ footer {
     width: 265px;
     padding: 20px 10px 10px 10px;
     min-height: 200px;
-    -webkit-box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.27);
-    -moz-box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.27);
-    box-shadow: inset 0px 0px 2px 2px rgba(0,0,0,0.27);
+    -webkit-box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.27);
+    -moz-box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.27);
+    box-shadow: inset 0 0 2px 2px rgba(0,0,0,0.27);
     border-radius: 5px;
 }
 
@@ -398,7 +398,7 @@ form #fullname, #email, #message {
     margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
+
 }
 .cricket h3 {
     margin-left:20px;
@@ -411,24 +411,8 @@ form #fullname, #email, #message {
     position: relative;
     top: -360px;
     float: left;
-    padding: 0px 0px 0px 5px;  
+    padding: 0 0 0 5px;  
 
 }
 
-    
-    
-    
-=======
-    .football h3 {
-        margin-top: 20px;
-        margin-left: 20px;
-    }
 
-    .cricket h3 {
-        margin-left: 20px;
-    }
-
-    .rugby h3 {
-        margin-left: 20px;
-    }
->>>>>>> origin/Thines
