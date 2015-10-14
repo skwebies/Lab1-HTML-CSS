@@ -183,6 +183,7 @@ nav {
     box-shadow: 2px 1px 2px 2px rgba(0,0,0,0.7);
     color: white;
 }
+ta
 
 #last_posted h3.sub_heading {
     margin-bottom: 20px;
@@ -201,6 +202,8 @@ h2.sub_heading1 {
     margin-left: 20px;
     margin-top: 20px;
 }
+
+
 
 #featured {
     margin-bottom: 20px;
@@ -395,6 +398,27 @@ form #fullname, #email, #message {
     margin-bottom: 20px;
 }
 
+<<<<<<< HEAD
+}
+.cricket h3 {
+    margin-left:20px;
+}
+.rugby h3 {
+    margin-left:20px;
+}
+/*Live page styles*/
+.time{
+    position: relative;
+    top: -360px;
+    float: left;
+    padding: 0px 0px 0px 5px;  
+
+}
+
+    
+    
+    
+=======
     .football h3 {
         margin-top: 20px;
         margin-left: 20px;
@@ -407,3 +431,4 @@ form #fullname, #email, #message {
     .rugby h3 {
         margin-left: 20px;
     }
+>>>>>>> origin/Thines
