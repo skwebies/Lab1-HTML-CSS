@@ -21,7 +21,7 @@ time, mark, audio, video {
 body {
     font-family: 'Ubuntu', sans-serif;
     color: black;
-    margin-top: 0px;
+    margin-top: 0;
     background: rgb(86, 105, 5) url("https://cloud.githubusercontent.com/assets/9512143/10493099/95131606-72af-11e5-80db-c68b16bd2de8.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -125,7 +125,7 @@ nav {
 
     .content_float p {
         text-align: justify;
-        text-justify: auto;
+       
     }
 
     .content_float h4 {
@@ -411,6 +411,7 @@ margin-left:20px;
 
 .cricket p,.rugby p,.football p {
     margin-left:20px;
+    margin-bottom:10px;
 }
 /*Live page styles*/
 .time {
@@ -419,6 +420,29 @@ margin-left:20px;
     float: left;
     padding: 0 0 0 5px;  
 
+}
+.live_h4 {
+    margin-left:20px;
+    margin-bottom:10px;
+    color:rgb(86, 105, 5);
+}
+.live_p {
+    margin-left:20px;
+    margin-bottom:20px;
+}
+
+/*About Page Styles*/
+.about_p {
+    margin-left:20px;
+    margin-bottom:20px;
+    margin-right:10px;
+    text-align:justify;
+}
+img.about_img {
+    float:left;
+    padding-right:10px;
+    border-top-left-radius:20px;
+    border-bottom-right-radius:20px;
 }
 
 
