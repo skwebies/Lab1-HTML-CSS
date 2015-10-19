@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "pages", "pages", "{A1CF0A60
 	ProjectSection(SolutionItems) = preProject
 		about.html = about.html
 		contact.html = contact.html
-		index.html = index.html
+		..\..\..\..\Desktop\websida\lapp1\index.html = ..\..\..\..\Desktop\websida\lapp1\index.html
 		live.html = live.html
 		sports.html = sports.html
 	EndProjectSection
